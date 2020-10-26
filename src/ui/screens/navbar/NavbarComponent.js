@@ -16,9 +16,6 @@ function NavbarComponent() {
                 <li className="nav-item">
                     <a className="nav-link" href={SCREENS.HOME}>MENU</a>
                 </li>
-                <li className="nav-item">
-                    <a className="nav-link" href={SCREENS.CART}>CART</a>
-                </li>
             </ul>
         </div>
     </nav>
