@@ -97,8 +97,8 @@ function HomeComponent(props) {
                         </div>
                     )
                 })}
-                <div className="cart-icon">
-                    <div className="inner-number">{cart.length}</div> <i onClick={handleCart} className="fa fa-shopping-cart"></i>My orders
+                <div className="cart-icon" onClick={handleCart} >
+                    <div className="inner-number">{cart.length}</div> <i className="fa fa-shopping-cart"></i>My orders
                </div>
             </div>
             <div className="container">
