@@ -1,0 +1,89 @@
+.head{    
+    margin-top: 50px;
+    
+}
+
+.hotel-title{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.restaraunt-title{
+   font-size:xx-large;
+    color: rgb(245, 11, 11);
+    display: flex;
+    
+}
+
+.dishes-title{
+margin-left:10px;
+}
+
+.dish-img{    
+    width: 30%;
+  height: 200px;
+    background-size: cover;
+    object-fit: cover;
+    
+}
+.dishes{
+    display: flex;
+    min-height: 250px;
+   justify-content: space-between;
+    align-items: center;
+     border-bottom: 0.5px solid rgb(184, 180, 180);
+    
+}
+.buttons{
+    background-color: rgb(43, 192, 43);
+    width: 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    cursor: none;   
+    align-items: center; 
+    color: white; 
+}
+.btn{
+    color: white;
+    font-size: larger;
+}
+.custom{
+    color: red;
+    font-size: 18px;
+}
+
+.icons{
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.dish-head{
+    display: flex;
+}
+.cart-icon{
+    color: rgb(107, 104, 104);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.fa-shopping-cart{
+    font-size:44px;
+    color: rgb(107, 104, 104);
+   
+ 
+}
+
+.inner-number {
+    position: absolute;    
+ background: rgb(255, 17, 0);
+color: white;
+text-align:center;
+width:22px;
+border-radius: 25px;
+ 
+}

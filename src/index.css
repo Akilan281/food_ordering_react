@@ -1,0 +1,40 @@
+:root {
+  --app-color: rgb(44, 233, 170);
+  --app-light-color: rgb(44, 233, 170);
+  --primary-color: black;
+  --secondary-color: lightgray;
+  --primary-text-color: #007bff;
+  --secondary-text-color: rgb(185, 177, 177);
+  /* --accent-text-color:rgb(185, 177, 177); */
+}
+
+body {
+  margin: 0;
+  font-family: ubuntu;
+}
+
+.main-wrap {
+  min-height: calc(100vh - 130px);
+}
+
+@font-face {
+  font-family: ubuntu;
+  src: url(./assets/fonts/Ubuntu-Regular.ttf);
+}
+
+.loader-wrap {
+  background-color: rgba(192, 192, 192, 0.4);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-wrap img {
+  width: 300px;
+}

@@ -1,0 +1,12 @@
+.navbar {
+    background-color: rgb(9, 185, 127);
+    display: flex;
+}
+
+
+.nav-link {
+    font-weight: 500;
+    font-size: x-large;
+    color: white;
+}
+
